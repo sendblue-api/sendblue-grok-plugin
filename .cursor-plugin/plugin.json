@@ -1,0 +1,13 @@
+{
+  "name": "sendblue",
+  "version": "1.0.0",
+  "description": "Send customer messages, read replies, and check delivery from your Sendblue workspace.",
+  "author": {
+    "name": "Sendblue",
+    "email": "support@sendblue.com"
+  },
+  "homepage": "https://www.sendblue.com/",
+  "repository": "https://github.com/sendblue-api/sendblue-grok-plugin",
+  "keywords": ["sendblue", "imessage", "sms", "messaging", "sales", "support"],
+  "logo": "assets/logo.png"
+}
