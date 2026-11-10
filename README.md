@@ -1,8 +1,20 @@
 # Sendblue
 
-Send customer messages, read replies, and check delivery from your Sendblue workspace in Grok Bot and Cursor.
+Send customer messages, read replies, and check delivery from your Sendblue workspace in Claude, Grok Bot, and Cursor.
 
 The plugin connects to Sendblue's hosted MCP server using Streamable HTTP and OAuth. Sign in with your Sendblue account, choose the workspace, and grant the permissions you want to use.
+
+## Connect in Claude
+
+1. Open **Customize > Connectors** and select **Add > Add custom connector**.
+2. Enter **Sendblue** as the name and `https://api.sendblue.co/mcp` as the server URL.
+3. Review the detected OAuth configuration. Use **Register automatically** for the OAuth client and leave request headers empty.
+4. Complete setup, connect, and sign in to Sendblue. Select the workspace and approve the read and/or send permissions you need.
+5. Start a conversation with Sendblue enabled and ask Claude to check the connection.
+
+Team and Enterprise owners add the connector in their organization settings first. Members then connect their own Sendblue accounts from **Customize > Connectors**.
+
+The custom connector is available now. The Claude directory listing is being prepared for review.
 
 ## Connect in Grok Bot
 
@@ -71,6 +83,7 @@ Disconnect or revoke access through Sendblue Connected Apps. Grok Bot connection
 
 ## Platform references
 
+- [Claude custom connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 - [Grok Bot app connections](https://docs.x.ai/grok-bot/computer-and-apps)
 - [Cursor MCP configuration](https://cursor.com/docs/mcp)
 - [Cursor plugin packaging](https://cursor.com/docs/reference/plugins)
