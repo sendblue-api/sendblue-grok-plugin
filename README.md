@@ -87,3 +87,7 @@ Disconnect or revoke access through Sendblue Connected Apps. Grok Bot connection
 - [Grok Bot app connections](https://docs.x.ai/grok-bot/computer-and-apps)
 - [Cursor MCP configuration](https://cursor.com/docs/mcp)
 - [Cursor plugin packaging](https://cursor.com/docs/reference/plugins)
+
+## Official MCP Registry
+
+The hosted messaging connector is described in [`server.json`](server.json) as `io.github.sendblue-api/sendblue`. It uses the same OAuth-protected HTTPS endpoint documented above. The manually dispatched `Publish official MCP Registry metadata` GitHub Actions workflow publishes metadata using short-lived GitHub OIDC credentials; no repository secret or additional DNS record is needed. The repository contains client configuration and listing metadata; the remote service is operated by Sendblue.

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sendblue-api/sendblue",
+  "title": "Sendblue",
+  "description": "Send messages, read replies, and check delivery and messaging health in your Sendblue workspace.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.sendblue.com/",
+  "repository": {
+    "url": "https://github.com/sendblue-api/sendblue-grok-plugin",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/sendblue-api/sendblue-grok-plugin/d7d16f8c1bfcbc08a1630777f7bab92448de28b0/assets/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.sendblue.co/mcp"
+    }
+  ]
+}
